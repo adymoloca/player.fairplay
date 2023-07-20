@@ -1,0 +1,55 @@
+import teamOneImage from '../../../../../assets/images/ilustrations/teamoneimg.png';
+import teamTwoImage from '../../../../../assets/images/ilustrations/teamTwoImage.png';
+
+export const matches = [
+	{
+		teamOneImage: `${teamOneImage}`,
+        teamTwoImage: `${teamTwoImage}`,
+		time: "01:00",
+        date: "09/21/2022",
+		gameType: "PRO",
+		arenaName: "Gabana arena",
+		adress: "str. avem",
+		spots: "09/21",
+	},
+	{
+		teamOneImage: `${teamOneImage}`,
+        teamTwoImage: `${teamTwoImage}`,
+		time: "02:00",
+        date: "09/21/2022",
+		gameType: "NORMAL",
+		arenaName: "Rodna arena",
+		adress: "str. Nu Avem",
+		spots: "09/21",
+	},
+	{
+		teamOneImage: `${teamOneImage}`,
+        teamTwoImage: `${teamTwoImage}`,
+		time: "03:00",
+        date: "09/21/2022",
+		gameType: "CASUAL",
+		arenaName: "Maieru arena",
+		adress: "str. Nu Avem",
+		spots: "09/21",
+	},
+    {
+		teamOneImage: `${teamOneImage}`,
+        teamTwoImage: `${teamTwoImage}`,
+		time: "04:00",
+        date: "09/21/2022",
+		gameType: "PRO",
+		arenaName: "Dr Donstantin Radulescu",
+		adress: "str. Nu Avem",
+		spots: "09/21",
+	},
+	{
+		teamOneImage: `${teamOneImage}`,
+        teamTwoImage: `${teamTwoImage}`,
+		time: "05:00",
+        date: "09/21/2022",
+		gameType: "NORMAL",
+		arenaName: "Sa nu spui ca nu avem arena",
+		adress: "str. Nu Avem",
+		spots: "09/21",
+	},
+];

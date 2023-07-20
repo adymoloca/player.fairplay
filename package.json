@@ -1,0 +1,101 @@
+{
+    "name": "fotbalist",
+    "version": "3.2.0",
+    "private": true,
+    "engines": {
+        "node": "16.14.2"
+    },
+    "homepage": "https://adrian-moloca.github.io/",
+    "dependencies": {
+        "@babel/core": "^7.18.6",
+        "@babel/eslint-parser": "^7.18.2",
+        "@babel/preset-react": "^7.18.6",
+        "@emoji-mart/data": "^1.0.8",
+        "@emoji-mart/react": "^1.0.1",
+        "@emotion/cache": "^11.9.3",
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/icons-material": "^5.8.4",
+        "@mui/lab": "^5.0.0-alpha.88",
+        "@mui/material": "^5.8.6",
+        "@mui/styles": "^5.8.6",
+        "@mui/system": "^5.8.6",
+        "@mui/utils": "^5.8.6",
+        "@mui/x-date-pickers": "^5.0.1",
+        "@react-google-maps/api": "^2.17.0",
+        "@reduxjs/toolkit": "^1.8.5",
+        "@tabler/icons": "^1.72.0",
+        "apexcharts": "^3.35.3",
+        "axios": "^0.27.2",
+        "emoji-mart": "^5.3.3",
+        "formik": "^2.2.9",
+        "framer-motion": "^6.3.16",
+        "gh-pages": "^4.0.0",
+        "i18next": "^21.10.0",
+        "jwt-decode": "^3.1.2",
+        "material-ui-popup-state": "^4.0.1",
+        "moment": "^2.29.4",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-apexcharts": "^1.4.0",
+        "react-device-detect": "^2.2.2",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^11.18.6",
+        "react-perfect-scrollbar": "^1.5.8",
+        "react-redux": "^8.0.2",
+        "react-router": "6.3.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^5.0.1",
+        "react-slick": "^0.29.0",
+        "redux": "^4.2.0",
+        "redux-persist": "^6.0.0",
+        "sass": "^1.53.0",
+        "slick-carousel": "^1.8.1",
+        "socket.io-client": "^4.5.3",
+        "yup": "^0.32.11"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "npm i --legacy-peer-deps --force && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            "defaults",
+            "not IE 11"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-react-app": "7.0.1",
+        "eslint-import-resolver-typescript": "3.2.1",
+        "eslint-plugin-flowtype": "^8.0.3",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "6.6.0",
+        "eslint-plugin-markdown": "^2.2.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "prettier": "^2.7.1"
+    }
+}
